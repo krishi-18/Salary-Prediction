@@ -9,7 +9,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model=pickle.load(open('C:/Users/admin/Newfolder/placemnt.sav','rb'))
+loaded_model=pickle.load(open('placemnt.sav','rb'))
 
 def salary_prediction(input_data):
     
